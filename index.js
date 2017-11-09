@@ -1,4 +1,6 @@
 // Code your solution in this file!
+const
+
 function distanceFromHqInBlocks(43){
 
 };
@@ -8,5 +10,5 @@ function distanceFromHqInFeet(){
 };
 
 function distanceTravelledInFeet(){
-  
+  distanceTravelledInFeet * 264;
 };
