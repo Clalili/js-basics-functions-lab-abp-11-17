@@ -1,7 +1,7 @@
 // Code your solution in this file!
 
 function distanceFromHqInBlocks(numBlocks){
-  if(numblocks > 42){
+  if(numBlocks > 42){
     return numBlocks - 42;
   } else{
     return 42 - numBlocks;
