@@ -1,5 +1,5 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(blockNum){
+function distanceFromHqInBlocks(){
   if(blockNum > 42){
     return blockNum - 42;
   } else{
@@ -20,6 +20,6 @@ function distanceTravelledInFeet(origin, destination){
   }
 };
 
-function calculatesFarePrice(){
-
+function calculatesFarePrice(origin, destination){
+  
 };
