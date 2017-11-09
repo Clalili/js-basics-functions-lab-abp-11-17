@@ -7,6 +7,8 @@ function distanceFromHqInBlocks(blockNum){
   }
 };
 
+console.log(distanceFromHqInBlocks(blockNum));
+
 function distanceFromHqInFeet (blockNum) {
     return distanceFromHqInBlocks(blockNum) * 264;
 };
