@@ -1,7 +1,7 @@
 // Code your solution in this file!
-const
+let blocks = 43;
 
-function distanceFromHqInBlocks(43){
+function distanceFromHqInBlocks(blocks){
 
 };
 
