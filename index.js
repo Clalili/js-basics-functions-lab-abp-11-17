@@ -9,6 +9,6 @@ function distanceFromHqInBlocks(numBlocks){
 };
 
 
-function distanceFromHqInFeet(numBlocks){
+function distanceFromHqInFeet (numBlocks){
     reurn distanceFromHqInBlocks(numBlocks) * 264;
 };
