@@ -1,18 +1,18 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(origin){
-  if(origin > 42){
-    return origin - 42;
+function distanceFromHqInBlocks(startingBlock){
+  if(startingBlock) > 42){
+    return startingBlock) - 42;
   } else{
-    return 42 - origin;
+    return 42 - startingBlock);
   }
 };
 
 
-function distanceFromHqInFeet (origin) {
-    return distanceFromHqInBlocks(origin) * 264;
+function distanceFromHqInFeet (startingBlock)) {
+    return distanceFromHqInBlocks(startingBlock)) * 264;
 };
 
-function distanceTravelledInFeet(origin, destination){
+function distanceTravelledInFeet(startingBlock, endingBlock){
   if(origin < destination){
     return (destination - origin) * 264;
   } else{
@@ -21,5 +21,5 @@ function distanceTravelledInFeet(origin, destination){
 };
 
 function calculatesFarePrice(){
-  
+
 };
