@@ -8,18 +8,4 @@ function distanceFromHqInBlocks(startingBlock){
 };
 
 
-function distanceFromHqInFeet (startingBlock) {
-    return distanceFromHqInBlocks(startingBlock) * 264;
-};
 
-function distanceTravelledInFeet(startingBlock, endingBlock){
-  if(startingBlock) < endingBlock){
-    return (endingBlock - startingBlock)) * 264;
-  } else{
-    return (startingBlock) - endingBlock) * 264;
-  }
-};
-
-function calculatesFarePrice(){
-
-};
